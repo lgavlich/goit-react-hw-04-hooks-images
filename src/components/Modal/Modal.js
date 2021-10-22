@@ -1,8 +1,5 @@
 import React, { useEffect } from "react";
 import PropTypes from "prop-types";
-//import { createPortal } from "react-dom";
-
-//const modalRoot = document.querySelector("#modal-root");
 
 export default function Modal({ onClose, modalImage: { modalImage } }) {
   useEffect(() => {
